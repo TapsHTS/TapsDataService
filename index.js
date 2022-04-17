@@ -11,7 +11,7 @@ const client = new Discord.Client({
     intents: 32767,
 });
 const fs = require('fs');
-const prefix = '!';
+const prefix = process.env.PREFIX;
 client.commands = new Discord.Collection();
 
 //Create a folder named 'commands' in root
