@@ -1,0 +1,27 @@
+{
+    "name": "auriabot",
+    "version": "1.0.0",
+    "description": "Un bot pour Auria",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tapshts/auriabot.git"
+    },
+    "author": "TapsHTS",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/tapshts/auriabot/issues"
+    },
+    "homepage": "https://github.com/tapshts/auriabot#readme",
+    "dependencies": {
+        "discord.js": "^13.6.0",
+        "dotenv": "^16.0.0",
+        "nodeactyl": "^3.2.2",
+        "nodemon": "^2.0.15",
+        "socket.io": "^4.4.1",
+        "socket.io-client": "^4.4.1"
+    }
+}
