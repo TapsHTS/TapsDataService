@@ -1,21 +1,21 @@
 {
-    "name": "auriabot",
+    "name": "tapsdataservice",
     "version": "1.0.0",
-    "description": "Un bot pour Auria",
+    "description": "Bot discord pour les serveurs sur Pterodactyl",
     "main": "index.js",
     "scripts": {
         "start": "nodemon index.js"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/tapshts/auriabot.git"
+        "url": "git+https://github.com/TapsHTS/Taps-Data-Service.git"
     },
     "author": "TapsHTS",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/tapshts/auriabot/issues"
+        "url": "https://github.com/TapsHTS/Taps-Data-Service/issues"
     },
-    "homepage": "https://github.com/tapshts/auriabot#readme",
+    "homepage": "https://github.com/TapsHTS/Taps-Data-Service#readme",
     "dependencies": {
         "discord.js": "^13.6.0",
         "dotenv": "^16.0.0",
