@@ -8,7 +8,7 @@ module.exports = {
     aliases: ['cns', 'cs'],
     usage: 'console',
     async execute(message, args, client) {
-        if (message.author.id !== '450658007877943316') return message.channel.send('Vous n\'avez pas la permission de faire cette commande !');
+        if (message.author.id !== process.env.DISCORD_ADMIN_ID) return message.channel.send('Vous n\'avez pas la permission de faire cette commande !');
 
         if (!args[0]) return message.channel.send("Veuillez entrer une commande !");
         const input = args.slice(0).join(' ');
